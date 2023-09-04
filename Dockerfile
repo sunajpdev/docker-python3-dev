@@ -21,7 +21,4 @@ COPY src/poetry.lock /root/src
 
 RUN pip install -U pip
 RUN pip install poetry
-# RUN curl -sSL https://install.python-poetry.org | python3 -
-# RUN curl -sSL https://install.python-poetry.org | POETRY_HOME=/etc/poetry python3 -
-# ENV PATH="/root/.local/bin:$PATH"
 RUN poetry install

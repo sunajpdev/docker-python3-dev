@@ -5,5 +5,15 @@
 
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
-  "autoDocstring.docstringFormat": "google"
+  "autoDocstring.docstringFormat": "google",
+  "cSpell.words": [
+    "autodocstring",
+    "azuretools",
+    "CEINTL",
+    "devcontainer",
+    "njpwerner",
+    "pranaygp",
+    "quokka",
+    "rangav"
+  ]
 }
